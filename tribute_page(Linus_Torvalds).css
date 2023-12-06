@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    border: 5px solid black;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+#a{
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+.bio{
+    border: 5px solid red;
+    background-color:magenta;
+}
+
+.achieve{
+    border: 5px solid green;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.resource {
+    border: 10px solid yellow;
+    background-color:royalblue;
+    background-image: linear-gradient(skyblue,yellow,red);
+
+}
+
+
