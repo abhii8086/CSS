@@ -3,61 +3,74 @@
   padding: 0;
 }
 
-.container {
-  height: 350px;
-  width: 450px;
-  background-color:black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding:21px 9px 4px 36px;
-  border-radius: 12px;
+body {
+  background-color: #eaeff1;
+  font-family: "Raleway", sans-serif;
+}
+
+#container {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 20vh;
 }
 
 .card {
-  height: 400px;
-  width: 425px;
+  padding: 8px;
+  border: 1px solid #bacdd8;
+  border-radius: 10px;
+  background-color: rgb(117, 111, 111);
+  /* height: 303px; */
+  /* background-color: gray; */
+  /* width: 120px; */
 }
-
-.image img {
+img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
-.text h2 {
-  margin: 2px;
-  color: white;
-  position: absolute;
-  top: 73%;
-  left: 10%;
+.card-tag {
+  margin: 15px 0px 15px 0px;
 }
 
-.price1 h3 {
-  margin: 2px;
-  color: white;
-  position: absolute;
-  top: 89%;
-  left: 10%;
+#tag1 {
+  background-color: rgb(186, 173, 173);
+  border-radius: 10px;
+  padding: 4px 12px;
+  margin: 0 9px 0 0;
+  color: black;
 }
 
-.price2 h3 {
-  color: white;
-  position: absolute;
-  top: 90%;
-  left: 24%;
+#tag2 {
+  background-color: rgb(186, 173, 173);
+  border-radius: 10px;
+  padding: 4px 12px;
+  margin: 0 0 0 9px;
+  color: black;
 }
 
-.off{
-  color: aliceblue;
-  background-color: aqua;
-  height: 24px;
-  width: 87px;
-  font-size: large;
-  text-align: center;
-  border-radius: 12px;
-  position: absolute;
-  top: 90%;
-  left: 38%;
- 
+.card-name {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.card-descrip {
+  margin: 25px 0;
+  line-height: 1.6;
+  align-items: lef;
+}
+
+button {
+  border-radius: 30px;
+  border: 0.5px solid black;
+  padding: 13px 35px;
+  margin: 20px 160px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+}
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
 }
